@@ -1,6 +1,5 @@
 from playwright.sync_api import sync_playwright
 from time import sleep as espera
-import os
 
 
 # Solicitar dados do usuário
