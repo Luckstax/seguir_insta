@@ -4,9 +4,9 @@ import os
 
 
 # Solicitar dados do usuário
-usuario_login = 'luckstax7' #input("Digite seu usuário do Instagram: ")
-senha = 'Hakuna14111993' #input("Digite sua senha do Instagram: ")
-endereco = 'neo_iaarts' #input("Digite o endereço completo da lista de usuários: ")
+usuario_login = input("Digite seu usuário do Instagram: ")
+senha = input("Digite sua senha do Instagram: ")
+endereco = input("Digite o endereço completo da lista de usuários: ")
 
 
 with sync_playwright() as p:
